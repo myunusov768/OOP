@@ -8,7 +8,7 @@ namespace OOP
 {
     public class Test5: Test6
     {
-        public new string Name { get => base.Name; }
+        public new string Name { get; set; } = "new";
 
 
         public override string Name1 { get; set; } = "override";
@@ -25,6 +25,7 @@ namespace OOP
 
 
     }
+
     public class Test6
     {
         public virtual string Name1 { get; set; } = "base";

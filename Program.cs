@@ -1,22 +1,55 @@
 ﻿using OOP;
-using System.Net.Http.Headers;
-
-
-
-
-Test5 test5 = new Test5();
-test5.Method();
-Console.WriteLine(test5.Name);
-
-test5.Method1();
-Console.WriteLine(test5.Name1);
+using ClassLibrary1;
 
 
 
 
 
 
+Print();
+void Print()
+{
+    ADefoult aDefoult = new ADefoult();
+    Console.WriteLine(aPublic);
+    Console.WriteLine(aInterbal);
+    Console.WriteLine(aPrivate);
+    Console.WriteLine(aProtected);
+    Console.WriteLine(aProtectedInternal);
+    Console.WriteLine(aPrivateProtected);
+    //------------------------------------
+    aDefoult.PrintPublic();
+    aDefoult.PrintInternal();
+    aDefoult.PrintPrivate();
+    aDefoult.PrintProtected();
+    aDefoult.PrintProtectedInternal();
+    aDefoult.PrintPrivateProtected();
 
+
+}
+
+
+public class Test786: ADefoult
+{
+    ADefoult aDefoult1 = new ADefoult();
+
+    void Print()
+    {
+        ADefoult aDefoult = new ADefoult();
+        Console.WriteLine(aPublic);
+        Console.WriteLine(aInterbal);
+        Console.WriteLine(aPrivate);
+        Console.WriteLine(aProtected);
+        Console.WriteLine(aProtectedInternal);
+        Console.WriteLine(aPrivateProtected);
+        //------------------------------------
+        aDefoult.PrintPublic();
+        aDefoult.PrintInternal();
+        aDefoult.PrintPrivate();
+        aDefoult.PrintProtected();
+        aDefoult.PrintProtectedInternal();
+        aDefoult.PrintPrivateProtected();
+    }
+}
 
 
 

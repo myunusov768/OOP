@@ -13,3 +13,6 @@ C:\Users\Asus\Desktop\C#\OOP\OOP\obj\Debug\net6.0\refint\OOP.dll
 C:\Users\Asus\Desktop\C#\OOP\OOP\obj\Debug\net6.0\OOP.pdb
 C:\Users\Asus\Desktop\C#\OOP\OOP\obj\Debug\net6.0\OOP.genruntimeconfig.cache
 C:\Users\Asus\Desktop\C#\OOP\OOP\obj\Debug\net6.0\ref\OOP.dll
+C:\Users\Asus\Desktop\C#\OOP\OOP\bin\Debug\net6.0\ClassLibrary1.dll
+C:\Users\Asus\Desktop\C#\OOP\OOP\bin\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\Asus\Desktop\C#\OOP\OOP\obj\Debug\net6.0\OOP.csproj.CopyComplete
