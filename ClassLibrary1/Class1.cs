@@ -23,17 +23,19 @@
 
         public void Print()
         {
-            //Console.WriteLine(aPublic);
-            //Console.WriteLine(aPrivate);
-            //Console.WriteLine(aProtected);
-            //Console.WriteLine(aProtectedInternal);
-            //Console.WriteLine(aPrivateProtected);
-            ////------------------------------------
-            //aDefoult.PrintPublic();
-            //aDefoult.PrintPrivate();
-            //aDefoult.PrintProtected();
-            //aDefoult.PrintProtectedInternal();
-            //aDefoult.PrintPrivateProtected();
+            Console.WriteLine(aPublic);
+            Console.WriteLine(aInterbal);
+            Console.WriteLine(aPrivate);
+            Console.WriteLine(aProtected);
+            Console.WriteLine(aProtectedInternal);
+            Console.WriteLine(aPrivateProtected);
+            //------------------------------------
+            aDefoult.PrintPublic();
+            aDefoult.PrintInternal();
+            aDefoult.PrintPrivate();
+            aDefoult.PrintProtected();
+            aDefoult.PrintProtectedInternal();
+            aDefoult.PrintPrivateProtected();
 
 
         }
