@@ -2,27 +2,27 @@
 using ClassLibrary1;
 
 
-
+Console.WriteLine("test");
 
 
 
 Print();
 void Print()
 {
-    ADefoult aDefoult = new ADefoult();
-    Console.WriteLine(aPublic);
-    Console.WriteLine(aInterbal);
-    Console.WriteLine(aPrivate);
-    Console.WriteLine(aProtected);
-    Console.WriteLine(aProtectedInternal);
-    Console.WriteLine(aPrivateProtected);
-    //------------------------------------
-    aDefoult.PrintPublic();
-    aDefoult.PrintInternal();
-    aDefoult.PrintPrivate();
-    aDefoult.PrintProtected();
-    aDefoult.PrintProtectedInternal();
-    aDefoult.PrintPrivateProtected();
+    //ADefoult aDefoult = new ADefoult();
+    //Console.WriteLine(aPublic);
+    //Console.WriteLine(aInterbal);
+    //Console.WriteLine(aPrivate);
+    //Console.WriteLine(aProtected);
+    //Console.WriteLine(aProtectedInternal);
+    //Console.WriteLine(aPrivateProtected);
+    ////------------------------------------
+    //aDefoult.PrintPublic();
+    //aDefoult.PrintInternal();
+    //aDefoult.PrintPrivate();
+    //aDefoult.PrintProtected();
+    //aDefoult.PrintProtectedInternal();
+    //aDefoult.PrintPrivateProtected();
 
 
 }
@@ -34,20 +34,20 @@ public class Test786: ADefoult
 
     void Print()
     {
-        ADefoult aDefoult = new ADefoult();
-        Console.WriteLine(aPublic);
-        Console.WriteLine(aInterbal);
-        Console.WriteLine(aPrivate);
-        Console.WriteLine(aProtected);
-        Console.WriteLine(aProtectedInternal);
-        Console.WriteLine(aPrivateProtected);
-        //------------------------------------
-        aDefoult.PrintPublic();
-        aDefoult.PrintInternal();
-        aDefoult.PrintPrivate();
-        aDefoult.PrintProtected();
-        aDefoult.PrintProtectedInternal();
-        aDefoult.PrintPrivateProtected();
+        //ADefoult aDefoult = new ADefoult();
+        //Console.WriteLine(aPublic);
+        //Console.WriteLine(aInterbal);
+        //Console.WriteLine(aPrivate);
+        //Console.WriteLine(aProtected);
+        //Console.WriteLine(aProtectedInternal);
+        //Console.WriteLine(aPrivateProtected);
+        ////------------------------------------
+        //aDefoult.PrintPublic();
+        //aDefoult.PrintInternal();
+        //aDefoult.PrintPrivate();
+        //aDefoult.PrintProtected();
+        //aDefoult.PrintProtectedInternal();
+        //aDefoult.PrintPrivateProtected();
     }
 }
 
